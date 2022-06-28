@@ -4,8 +4,20 @@
         <link rel="stylesheet" href="/steam_resource/css/39.css">
         <link rel="stylesheet" href="/steam_resource/css/library.css">
         <script src="/static/library.js"></script>
+        <script>
+          async function loadRings(){
+            call_plugin_method("load_map", {});
+          }
+
+          async function resetGameFiles(){
+            call_plugin_method("reset_game_files", {});
+          }
+        </script>
     </head>
     <body>
-        <h2>Hello World</h2>
+        <h2>RL Map Loader</h2>
+        <button type='button' class="DialogButton _DialogLayout Secondary gamepaddialog_Button_1kn70 Focusable gpfocus gpfocuswithin" onclick='resetGameFiles()'>Reset Game Files</button>
+        <br>
+        <button class="DialogButton _DialogLayout Secondary gamepaddialog_Button_1kn70 Focusable gpfocus gpfocuswithin" onclick='loadRings()'>Load Rings</button>
     </body>
 </html>
