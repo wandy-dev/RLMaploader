@@ -1,14 +1,17 @@
-# Plugin-Template
+# Rocket League Map Loader
 
-This is the template plugin for developing plugins for the [SteamOS Plugin Loader](https://github.com/SteamDeckHomebrew/PluginLoader).
+This is a plugin for the [SteamOS Plugin Loader](https://github.com/SteamDeckHomebrew/PluginLoader) that aims to help Epic Games RL players load Steam workshop maps.
+
+## Issues
+
+No way to configure `rocketleague` or custom maps directories
+May potentially delete the underpass map requiring you to verify the game files to get it back.
+Only loads one map ATM due to this just being a proof of concept right now.
 
 ## Usage
 
-1. Click on the green `Use this template` button to create a new repository for your plugin
-2. Rename the `plugin_template.py` file to something unique
-3. Add your code to the plugin's python and html files.
-4. To use it, simply `git clone` the repo into the `/home/deck/homebrew/plugins` folder on your Steam Deck
+TODO
 
 ## License
 
-This Template Project is under The Unlicense. You may license your own plugin under whatever license you prefer.
+Undecided but leaving license from upstream for now.
